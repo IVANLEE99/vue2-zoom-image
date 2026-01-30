@@ -1,0 +1,47 @@
+{
+  "name": "vue2-zoom-image",
+  "version": "1.0.0",
+  "description": "Vue2 Zoom Image Component",
+  "main": "dist/vue2-zoom-image.umd.js",
+  "module": "dist/vue2-zoom-image.esm.js",
+  "style": "dist/vue2-zoom-image.css",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "vue": "^2.6.14"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IVANLEE99/vue2-zoom-image.git"
+  },
+  "keywords": [
+    "vue2-zoom-image",
+    "zoom-image",
+    "vue2-zoom-image-component",
+    "zoom-image-component",
+    "vue2-zoom-image-component",
+    "zoom-image-component"
+  ],
+  "author": "Youngs羊示",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IVANLEE99/vue2-zoom-image/issues"
+  },
+  "homepage": "https://github.com/IVANLEE99/vue2-zoom-image#readme",
+  "devDependencies": {
+    "@babel/core": "^7.28.6",
+    "@babel/preset-env": "^7.28.6",
+    "rollup": "^2.79.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-css-only": "^4.5.5",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-vue": "^5.1.9",
+    "sass": "^1.97.3",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
