@@ -1,9 +1,9 @@
 {
   "name": "vue2-zoom-image",
   "version": "1.0.0",
-  "description": "Vue2 Zoom Image Component",
-  "main": "dist/vue2-zoom-image.umd.js",
+  "main": "dist/vue2-zoom-image.cjs.js",
   "module": "dist/vue2-zoom-image.esm.js",
+  "browser": "dist/vue2-zoom-image.umd.js",
   "style": "dist/vue2-zoom-image.css",
   "files": [
     "dist"

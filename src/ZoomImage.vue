@@ -1,6 +1,6 @@
 <!-- ZoomImage  -->
 <template>
-  <div class="ZoomImage">
+  <div class="ZoomImage" :style="{ width }">
     <div
       ref="choose"
       class="box"
@@ -22,14 +22,22 @@ export default {
   components: {},
   //prop属性
   props: {
+    //原来图片宽度
+    width: {
+      type: String,
+      default: "50%",
+    },
+    //图片地址
     imageUrl: {
       type: String,
       default: "",
     },
+    //图片位置
     position: {
       type: String,
       default: "right", //left right
     },
+    //间隔
     zoomGap: {
       type: Number,
       default: 8, //间隔默认8px
@@ -164,8 +172,8 @@ export default {
     width: 100%;
     height: 100%;
     border-radius: 8px;
-    position: absolute;
-    left: 0;
+    //position: absolute;
+    //left: 0;
     img {
       width: 100%;
       height: 100%;
