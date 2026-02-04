@@ -36,7 +36,7 @@ jobs:
           node-version: lts/*
           cache: 'npm'
       - name: Install dependencies
-        run: npm ci
+        run: npm install
         working-directory: example   # ✅ 关键：进 example 安装依赖
       - name: Build
         run: npm run build
